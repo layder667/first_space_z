@@ -1,0 +1,99 @@
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    min-height: 75px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    width: 1200px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+p {
+    font-size: 10px;
+    outline: none;
+}
+h1 {
+    font-size: 25px;
+    outline: none;
+}
+.advantages {
+    display: flex;
+    flex-direction: row;
+    padding-left: 160px;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-right: 80px;
+    background-color: #131313;
+    color: white;
+}
+.adv {
+    width: 180px;
+    padding-top: 47px;
+}
+.discription {
+    min-height: 55px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.recomend-list li::before {
+    display: inline-block;
+    content: '';
+    background-color: #ffcb06;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    position: relative;
+    right: 22px;
+    margin: 0px;
+    padding: 0px;
+    top: 1px;
+    color: #ffcb06;
+}
+.recomend-list li {
+    margin-left: 30px;
+}
+.link-class {
+    color: white;
+}
+.link-class:hover {
+    color: #ffcb06;
+}
+.link-class:active {
+    color: gray;
+}
